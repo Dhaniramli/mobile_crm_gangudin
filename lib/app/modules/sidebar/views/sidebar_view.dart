@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
-
-import 'package:get/get.dart';
-
-import '../controllers/sidebar_controller.dart';
-
-import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
 
 import '../../../common/contants.dart';
 import '../../../routes/app_pages.dart';
+import '../controllers/sidebar_controller.dart';
 
 class SidebarView extends GetView<SidebarController> {
   const SidebarView({
@@ -20,7 +14,7 @@ class SidebarView extends GetView<SidebarController> {
   final String? statePage;
   @override
   Widget build(BuildContext context) {
-    final controller = Get.put(SidebarController());
+    // final controller = Get.put(SidebarController());
 
     return Drawer(
       child: ListView(

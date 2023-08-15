@@ -18,3 +18,5 @@ FontWeight semiBold = FontWeight.w600;
 FontWeight bold = FontWeight.w700;
 FontWeight extrabold = FontWeight.w800;
 FontWeight superBold = FontWeight.w900;
+
+const apiSecretKey = "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";

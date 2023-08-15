@@ -1,11 +1,15 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class ChatUsController extends GetxController {
-  //TODO: Implement ChatUsController
 
-  final count = 0.obs;
+class ChatUsController extends GetxController {
+  late TextEditingController promptC;
+  String responseTxt = '';
+
+
   @override
   void onInit() {
+    promptC = TextEditingController();
     super.onInit();
   }
 
@@ -16,8 +20,7 @@ class ChatUsController extends GetxController {
 
   @override
   void onClose() {
+    promptC.dispose();
     super.onClose();
   }
-
-  void increment() => count.value++;
 }
