@@ -154,7 +154,9 @@ class LoginView extends GetView<LoginController> {
                 borderRadius: BorderRadius.circular(15.0),
               ),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Get.offAllNamed(Routes.HOME);
+            },
             child: Text(
               'Login',
               style: textInter.copyWith(
