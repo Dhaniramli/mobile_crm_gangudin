@@ -2,20 +2,23 @@ name: mobile_crm_gangudin
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
-environment: 
+environment:
   sdk: '>=3.0.6 <4.0.0'
 
-dependencies: 
+dependencies:
   cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
   get: 4.6.5
-  flutter: 
-    sdk: flutter
+  google_fonts: ^5.1.0
 
-dev_dependencies: 
+dev_dependencies:
   flutter_lints: 2.0.2
-  flutter_test: 
+  flutter_test:
     sdk: flutter
 
-flutter: 
+flutter:
   uses-material-design: true
-
+  
+  assets:
+    - assets/pictures/
